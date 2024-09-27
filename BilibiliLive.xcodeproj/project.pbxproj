@@ -20,6 +20,7 @@
 		49078E47291BEA2400F556BD /* PocketSVG in Frameworks */ = {isa = PBXBuildFile; productRef = 49078E46291BEA2400F556BD /* PocketSVG */; };
 		490EC3E7290CC8F8001E00B6 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EC3E6290CC8F8001E00B6 /* RankingViewController.swift */; };
 		490EC3E9290CE23E001E00B6 /* BLSettingLineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EC3E8290CE23E001E00B6 /* BLSettingLineCollectionViewCell.swift */; };
+		490EC3EB290CFEBD001E00B6 /* Anime1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490EC3EA290CFEBD001E00B6 /* Anime1ViewController.swift */; };
 		492731EE29096677005F5B0A /* HotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492731ED29096677005F5B0A /* HotViewController.swift */; };
 		492AD7092BFF1E6C007221C8 /* CommonPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD7082BFF1E6C007221C8 /* CommonPlayerViewController.swift */; };
 		492AD70B2BFF23B1007221C8 /* DanmuViewPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AD70A2BFF23B1007221C8 /* DanmuViewPlugin.swift */; };
@@ -165,6 +166,7 @@
 		490425F629AB54B200CDBC60 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		490EC3E6290CC8F8001E00B6 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 		490EC3E8290CE23E001E00B6 /* BLSettingLineCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLSettingLineCollectionViewCell.swift; sourceTree = "<group>"; };
+		490EC3EA290CFEBD001E00B6 /* Anime1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime1ViewController.swift; sourceTree = "<group>"; };
 		492731ED29096677005F5B0A /* HotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotViewController.swift; sourceTree = "<group>"; };
 		492AD7082BFF1E6C007221C8 /* CommonPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonPlayerViewController.swift; sourceTree = "<group>"; };
 		492AD70A2BFF23B1007221C8 /* DanmuViewPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanmuViewPlugin.swift; sourceTree = "<group>"; };
@@ -660,6 +662,7 @@
 				AE2B41542912706700BF2B0B /* SearchResultViewController.swift */,
 				F9B9EAEC261B25E40045C2C6 /* ToViewViewController.swift */,
 				2DBE4C4C2628818F00D20413 /* HistoryViewController.swift */,
+				490EC3EA290CFEBD001E00B6 /* Anime1ViewController.swift */,
 				4973502A29161B770045C26B /* WeeklyWatchViewController.swift */,
 				49A441CC293F6DFD0007606C /* FollowUpsViewController.swift */,
 			);
@@ -977,6 +980,7 @@
 				498CF29F2B63AABE0009793E /* static_dict.c in Sources */,
 				492AD70F2BFF6761007221C8 /* NewVideoPlayerViewModel.swift in Sources */,
 				498CF2A02B63AABE0009793E /* literal_cost.c in Sources */,
+				490EC3EB290CFEBD001E00B6 /* Anime1ViewController.swift in Sources */,
 				F99D28F72619F5F000F8E66A /* FollowsViewController.swift in Sources */,
 				F9D382B426359EF90070508F /* ApiRequest.swift in Sources */,
 				490EC3E9290CE23E001E00B6 /* BLSettingLineCollectionViewCell.swift in Sources */,

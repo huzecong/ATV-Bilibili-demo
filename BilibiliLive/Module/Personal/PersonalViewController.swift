@@ -63,6 +63,7 @@ class PersonalViewController: UIViewController, BLTabBarContentVCProtocol {
         cellModels.append(CellModel(title: "稍后再看", contentVC: ToViewViewController()))
         cellModels.append(CellModel(title: "历史记录", contentVC: HistoryViewController()))
         cellModels.append(CellModel(title: "每周必看", contentVC: WeeklyWatchViewController()))
+        cellModels.append(CellModel(title: "Anime1", contentVC: Anime1ViewController()))
 
         let logout = CellModel(title: "登出", autoSelect: false) {
             [weak self] in
