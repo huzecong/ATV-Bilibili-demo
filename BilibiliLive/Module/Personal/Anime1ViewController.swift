@@ -119,8 +119,11 @@ class Animate1PlayerViewController: CommonPlayerViewController {
 
     var dataString = ""
 
+    private let playPlugin = URLPlayPlugin(referer: Keys.referer, isLive: false)
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        addPlugin(plugin: playPlugin)
         Task {
             do {
                 try await self.request()
@@ -136,8 +139,6 @@ class Animate1PlayerViewController: CommonPlayerViewController {
             .serializingData().value
         let json = JSON(data)
         guard let video = json["s"].arrayValue.first?["src"].string else { throw Animate1Error.getJsonFail }
-        let asset = AVURLAsset(url: URL(string: "https:" + video)!)
-        playerItem = AVPlayerItem(asset: asset)
-        player = AVPlayer(playerItem: playerItem)
+        playPlugin.play(urlString: "https:" + video)
     }
 }

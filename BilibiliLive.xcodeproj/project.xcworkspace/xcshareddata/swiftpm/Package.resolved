@@ -1,5 +1,5 @@
 {
-  "originHash" : "45c5c9267c8c84275fa647f629e1033e605b18efefc17e781b907af506eb5385",
+  "originHash" : "299a24ec19f88cb48baa2587b26002395e618952845770555f1306929b04e928",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -26,6 +26,15 @@
       "state" : {
         "revision" : "4b8714a7fb84d42393314ce897127b3939885ec3",
         "version" : "3.8.5"
+      }
+    },
+    {
+      "identity" : "fuzi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/cezheng/Fuzi",
+      "state" : {
+        "revision" : "f08c8323da21e985f3772610753bcfc652c2103f",
+        "version" : "3.1.3"
       }
     },
     {
